@@ -2,8 +2,6 @@ connection: "@{CONNECTION_NAME}"
 
 include: "//app-marketing-common/*.view"
 include: "//@{CONFIG_PROJECT_NAME}/*.view"
-include: "//@{CONFIG_PROJECT_NAME}/*.explore"
-include: "//@{CONFIG_PROJECT_NAME}/*.dashboard"
 
 include: "*.dashboard"
 include: "*.view"
